@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>DevOps Challenge</title>
+</head>
+<body>
+    <h1>Welcome to the Unit Conversion in Temps</h1>
+    <form method="POST" action="/result">
+        <div class="form-group">
+            Input numerical value: <input type="text" name="number"> 
+        </div>
+        <br>
+        <label for="unit">Select a unit to convert </label>
+        <select class="form-group" id="unit" name="unit">
+            <option disabled selected value></option>
+            <option value="Kelvin">kelvin</option>
+            <option value="Celsius">celsius</option>
+            <option value="Fahrenheit">fahrenheit</option>
+            <option value="Rankine">rankine</option>
+        </select>
+        <br>
+        <br>
+        <label for="target">Choose a target to measure </label>
+        <select class="form-group" id="target" name="target">
+            <option disabled selected value></option>
+            <option value="Kelvin">kelvin</option>
+            <option value="Celsius">celsius</option>
+            <option value="Fahrenheit">fahrenheit</option>
+            <option value="Rankine">rankine</option>
+        </select>
+        <br>
+        <br>
+        <div class="form-group">
+            Students answer: <input type="text" name="answer"> 
+        </div>
+        <br>
+        <br>
+        <input class="btn btn-primary" type="submit" value="Submit">
+        <input class="btn btn-primary" type="reset" value="Reset">
+
+    </form>
+</body>
+</html>
